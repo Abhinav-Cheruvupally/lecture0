@@ -18,3 +18,20 @@ div{
 	}
 }
 
+%message{
+	border: 1px solid black;
+	font-weight: 14px;
+}
+
+.class1{
+	@extend %message;
+	color: red;
+}
+.class2{
+	@extend %message;
+	color:blue;
+}
+.class3{
+	@extend %message;
+	color: green;
+}

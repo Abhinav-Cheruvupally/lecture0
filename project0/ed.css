@@ -13,4 +13,21 @@ div h2 {
   color: burlywood;
 }
 
+.class3, .class2, .class1 {
+  border: 1px solid black;
+  font-weight: 14px;
+}
+
+.class1 {
+  color: red;
+}
+
+.class2 {
+  color: blue;
+}
+
+.class3 {
+  color: green;
+}
+
 /*# sourceMappingURL=ed.css.map */
