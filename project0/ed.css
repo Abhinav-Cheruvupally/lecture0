@@ -6,4 +6,11 @@ td {
   color: brown;
 }
 
+div p {
+  color: teal;
+}
+div h2 {
+  color: burlywood;
+}
+
 /*# sourceMappingURL=ed.css.map */
