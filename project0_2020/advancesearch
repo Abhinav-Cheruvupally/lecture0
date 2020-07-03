@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <title>Search</title>
+	<style>
+		input[type="text"]{
+		width: 750px;
+		border-radius: 25px;
+		padding:10px;
+		}
+		input[type="submit"]{
+		margin-top:10px;
+		margin-left:300px;
+		}
+	</style>
+    </head>
+	<div class="container" >
+	<div class="row" style="margin-top:150px">
+	<div class="col-2"></div>
+	<div class="col-8 ">
+	<h4 class="text-center text-success" > CS50-Abhinav Advance Search</h4>
+	</div>
+	<div class="col-2"></div>
+	</div>
+    <body>
+        <form action="https://www.google.com/search">
+		<div>
+		  <div class="row">
+		  <div class="col-2"></div>
+    <div class="col-8 " >
+	Find pages with...
+      all these words:<input type="text"  placeholder="Search Google" name="q">
+	  this exact word or phrase:<input type="text"  placeholder="Search Google" name="q">
+	  any of these words:<input type="text"  placeholder="Search Google" name="q">
+	  none of these words:<input type="text"  placeholder="Search Google" name="q">
+	  numbers ranging from:<input type="text"  placeholder="Search Google" name="q">to
+	  <input type="text"  placeholder="Search Google" name="q">
+    </div>
+	<div class="col-2"></div>
+	</div>
+	<div class="row">
+	<div class="col-2"></div>
+	<div class="col-8" >
+       <input  class="bg-primary" type="submit" value="Google Search">
+	   </div>
+	   <div class="col-2"></div>
+	   </div>
+	   </div>
+        </form>
+    </body>
+</html>
